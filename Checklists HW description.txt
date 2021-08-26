@@ -1,0 +1,11 @@
+Задача
+Дз для тестирования формы.
+1) Сделать чеклист на всю форму. Минимум 15 кейсов.
+2) Сделать к каждому полю по чеклисту. Минимум 15 кейсов.
+3) Сделать багрепорты к найденным багам на форме.
+
+Ссылка на чек-лист
+https://docs.google.com/spreadsheets/d/1cRbh9wqGsYWwij8Tv6eewf-i_dnGkOVZi51etsskM_k/edit#gid=1134674349
+
+Ссылка на баг-репорты
+https://docs.google.com/document/d/1wDDFcQ5pElq3yxukolRhn7g65KGAxSsKLzXS0OcAYwQ/edit#
