@@ -1,0 +1,37 @@
+1. Посмотреть список доступных приложений
+   adb shell pm list packages
+
+2. Найти приложение todolist
+   adb shell 'pm list packages -f' | grep todolist
+   
+3. Запустить приложение
+   adb shell am start -n "com.android.todolist/com.android.todolist.MainActivity"
+
+4. Очистить журнал устройства
+   adb logcat -c
+
+5. Снять логи приложения
+   adb logcat -d com.android.todolist >.\log.txt
+
+
+===================================================================================================================================
+Список полезных команд adb
+
+1. adb devices вывести список подключенных устройств.
+
+2. adb get-state узнать состояние устройства.
+
+3. adb push /адрес/локального/файла /адрес/удаленного/файла  отправить файл на устройство.
+
+4. adb install ~/Путь-до-файла.apk  установить приложение.
+
+5. adb uninstall com.andoid.todolist удалить приложение.
+
+6. adb reboot перезагрузить смартфон.
+
+7. adb backup создает резервную копию устройства.
+
+8. adb restore	восстановить резервную копию телефона.
+
+9. adb shell screencap -p /путь-файла.png сделать снимок экрана
+
