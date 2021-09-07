@@ -1,0 +1,222 @@
+--------- beginning of main
+09-07 17:39:48.836  7220  7220 I subsystem_ramdump: Usage:./system/bin/subsystem_ramdump [arg1] [arg2] [arg3]
+09-07 17:39:48.836  7220  7220 I subsystem_ramdump: [arg1]: (1/2) Ramdump location: 1: eMMC: /data/vendor/ramdump or 2: SD card: /sdcard/ramdump
+09-07 17:39:48.836  7220  7220 I subsystem_ramdump: [arg2]: (1/0) 1: Enable RPM log / 0: Disable RPM log
+09-07 17:39:48.836  7220  7220 I subsystem_ramdump: [arg3]: (1/0) 1: Enable qdss ramdump / 0: Disable qdss ramdump
+09-07 17:39:48.836  7220  7220 I subsystem_ramdump:  Using default ramdump location 1: eMMC: /data/vendor/ramdump
+09-07 17:39:48.836  7220  7220 I subsystem_ramdump:  Using default 0: Disable RPM log
+09-07 17:39:48.836  7220  7220 I subsystem_ramdump:  Using default 0: Disable qdss ramdump
+09-07 17:39:48.837  7220  7220 E subsystem_ramdump: Unable to open /sys/module/subsystem_restart/parameters/enable_ramdumps
+09-07 17:39:48.819  7220  7220 W subsystem_ramdu: type=1400 audit(0.0:2540390): avc: denied { read } for name="enable_ramdumps" dev="sysfs" ino=25551 scontext=u:r:vendor_subsystem_ramdump:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+09-07 17:39:49.910  1957  1971 D NetworkManagement: wlan0 <====> 1
+09-07 17:39:49.910  1957  1971 I MiuiNetworkPolicy: label wlan0, uid 10120, active true, tsNanos 1314066327751536
+09-07 17:39:49.912  1089  1314 D OemNetd : setLimit: enable, rate=0
+09-07 17:39:53.858  7224  7224 I subsystem_ramdump: Usage:./system/bin/subsystem_ramdump [arg1] [arg2] [arg3]
+09-07 17:39:53.858  7224  7224 I subsystem_ramdump: [arg1]: (1/2) Ramdump location: 1: eMMC: /data/vendor/ramdump or 2: SD card: /sdcard/ramdump
+09-07 17:39:53.858  7224  7224 I subsystem_ramdump: [arg2]: (1/0) 1: Enable RPM log / 0: Disable RPM log
+09-07 17:39:53.858  7224  7224 I subsystem_ramdump: [arg3]: (1/0) 1: Enable qdss ramdump / 0: Disable qdss ramdump
+09-07 17:39:53.858  7224  7224 I subsystem_ramdump:  Using default ramdump location 1: eMMC: /data/vendor/ramdump
+09-07 17:39:53.858  7224  7224 I subsystem_ramdump:  Using default 0: Disable RPM log
+09-07 17:39:53.858  7224  7224 I subsystem_ramdump:  Using default 0: Disable qdss ramdump
+09-07 17:39:53.849  7224  7224 W subsystem_ramdu: type=1400 audit(0.0:2540391): avc: denied { read } for name="enable_ramdumps" dev="sysfs" ino=25551 scontext=u:r:vendor_subsystem_ramdump:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+09-07 17:39:53.859  7224  7224 E subsystem_ramdump: Unable to open /sys/module/subsystem_restart/parameters/enable_ramdumps
+09-07 17:39:54.477 22437  7225 E memtrack: Couldn't load memtrack module
+09-07 17:39:54.477 22437  7225 W android.os.Debug: failed to get memory consumption info: -1
+09-07 17:39:58.861  7227  7227 I subsystem_ramdump: Usage:./system/bin/subsystem_ramdump [arg1] [arg2] [arg3]
+09-07 17:39:58.861  7227  7227 I subsystem_ramdump: [arg1]: (1/2) Ramdump location: 1: eMMC: /data/vendor/ramdump or 2: SD card: /sdcard/ramdump
+09-07 17:39:58.849  7227  7227 W subsystem_ramdu: type=1400 audit(0.0:2540392): avc: denied { read } for name="enable_ramdumps" dev="sysfs" ino=25551 scontext=u:r:vendor_subsystem_ramdump:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+09-07 17:39:58.861  7227  7227 I subsystem_ramdump: [arg2]: (1/0) 1: Enable RPM log / 0: Disable RPM log
+09-07 17:39:58.861  7227  7227 I subsystem_ramdump: [arg3]: (1/0) 1: Enable qdss ramdump / 0: Disable qdss ramdump
+09-07 17:39:58.862  7227  7227 I subsystem_ramdump:  Using default ramdump location 1: eMMC: /data/vendor/ramdump
+09-07 17:39:58.862  7227  7227 I subsystem_ramdump:  Using default 0: Disable RPM log
+09-07 17:39:58.862  7227  7227 I subsystem_ramdump:  Using default 0: Disable qdss ramdump
+09-07 17:39:58.862  7227  7227 E subsystem_ramdump: Unable to open /sys/module/subsystem_restart/parameters/enable_ramdumps
+09-07 17:40:00.464 24212 24212 E GsaVoiceInteractionSrv: updateScreenStatus
+09-07 17:40:00.466 24212 24212 E A       : FASE: true, SHwR: false, ACR: false, HR: false, ACbSS: false, ACbHE: false, SO:false, ARS: false
+09-07 17:40:00.485   587   587 I hwservicemanager: getTransport: Cannot find entry vendor.qti.hardware.servicetracker@1.0::IServicetracker/default in either framework or device manifest.
+09-07 17:40:00.499  1957  2099 I MiuiNetworkPolicy: updateUidState uid = 10020, uidState = 3
+09-07 17:40:00.501 24378 24441 I BtGatt.ScanManager: msg.what = 6
+09-07 17:40:03.889  7228  7228 I subsystem_ramdump: Usage:./system/bin/subsystem_ramdump [arg1] [arg2] [arg3]
+09-07 17:40:03.889  7228  7228 I subsystem_ramdump: [arg1]: (1/2) Ramdump location: 1: eMMC: /data/vendor/ramdump or 2: SD card: /sdcard/ramdump
+09-07 17:40:03.889  7228  7228 I subsystem_ramdump: [arg2]: (1/0) 1: Enable RPM log / 0: Disable RPM log
+09-07 17:40:03.889  7228  7228 I subsystem_ramdump: [arg3]: (1/0) 1: Enable qdss ramdump / 0: Disable qdss ramdump
+09-07 17:40:03.889  7228  7228 I subsystem_ramdump:  Using default ramdump location 1: eMMC: /data/vendor/ramdump
+09-07 17:40:03.889  7228  7228 I subsystem_ramdump:  Using default 0: Disable RPM log
+09-07 17:40:03.889  7228  7228 I subsystem_ramdump:  Using default 0: Disable qdss ramdump
+09-07 17:40:03.889  7228  7228 E subsystem_ramdump: Unable to open /sys/module/subsystem_restart/parameters/enable_ramdumps
+09-07 17:40:03.879  7228  7228 W subsystem_ramdu: type=1400 audit(0.0:2540393): avc: denied { read } for name="enable_ramdumps" dev="sysfs" ino=25551 scontext=u:r:vendor_subsystem_ramdump:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+09-07 17:40:08.918  7230  7230 I subsystem_ramdump: Usage:./system/bin/subsystem_ramdump [arg1] [arg2] [arg3]
+09-07 17:40:08.909  7230  7230 W subsystem_ramdu: type=1400 audit(0.0:2540394): avc: denied { read } for name="enable_ramdumps" dev="sysfs" ino=25551 scontext=u:r:vendor_subsystem_ramdump:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+09-07 17:40:08.918  7230  7230 I subsystem_ramdump: [arg1]: (1/2) Ramdump location: 1: eMMC: /data/vendor/ramdump or 2: SD card: /sdcard/ramdump
+09-07 17:40:08.918  7230  7230 I subsystem_ramdump: [arg2]: (1/0) 1: Enable RPM log / 0: Disable RPM log
+09-07 17:40:08.918  7230  7230 I subsystem_ramdump: [arg3]: (1/0) 1: Enable qdss ramdump / 0: Disable qdss ramdump
+09-07 17:40:08.918  7230  7230 I subsystem_ramdump:  Using default ramdump location 1: eMMC: /data/vendor/ramdump
+09-07 17:40:08.918  7230  7230 I subsystem_ramdump:  Using default 0: Disable RPM log
+09-07 17:40:08.918  7230  7230 I subsystem_ramdump:  Using default 0: Disable qdss ramdump
+09-07 17:40:08.918  7230  7230 E subsystem_ramdump: Unable to open /sys/module/subsystem_restart/parameters/enable_ramdumps
+--------- beginning of system
+09-07 17:40:12.415 18056 18056 I MiuiChargeManager: notifyBatteryStatusChanged:  status: 2 isPlugged: 2 level: 77 wireState: 11 chargeSpeed: 0 mWiredChargeType: 0 mWirelessChargeType: 0 chargeDeviceType: -1
+09-07 17:40:12.416 18056 18056 D KeyguardUpdateMonitor: handleBatteryUpdate
+09-07 17:40:12.416 18056 18056 I MiuiChargeController: checkBatteryStatus: chargeType 11 status 2 plugged 2 isRapidCharge false isSuperCharge false isCarMode false mChargeDeviceType -1 mChargeDeviceForAnalytic -1
+09-07 17:40:12.416 18056 18056 I KeyguardIndication: updateIndication: mVisible true mDozing false mTransientIndication null mPowerPluggedIn true mUpArrowIndication null
+09-07 17:40:12.419 17235 17235 I BatteryInfoReceiver: ACTION_BATTERY_CHANGED
+09-07 17:40:12.427 17235  6900 W BatteryHistoryLoadMgr: getHistoryInfo begin
+09-07 17:40:12.435 18056 18056 D AwesomeLockScreen: onRefreshBatteryInfo: isBatteryLow = false isPluggedIn = true level = 77
+09-07 17:40:12.436  4773  4773 D PowerChecker_Service: battery status = 2 plug = 2 level = 77
+09-07 17:40:12.437  4773  4841 D PowerCheckerService: onBatteryChanged, mBatteryLevel = 76, status = 2, level = 77, plug = 2, scale = 100
+09-07 17:40:12.440  1957  1983 D CompatibilityInfo: mCompatibilityFlags - 0
+09-07 17:40:12.441  1957  1983 D CompatibilityInfo: applicationDensity - 440
+09-07 17:40:12.441  1957  1983 D CompatibilityInfo: applicationScale - 1.0
+09-07 17:40:12.456  1957  2099 I MiuiNetworkPolicy: updateUidState uid = 10016, uidState = 20
+09-07 17:40:12.472  1957  1989 E BatteryExternalStatsWorker: no controller energy info supplied for bluetooth
+09-07 17:40:12.488 18056 18056 D SignalClusterView: updateMobileTypeImage  0
+09-07 17:40:12.490 18056 18056 E DeviceLevelUtils: isLowGpuDevice:1
+09-07 17:40:12.490 18056 18056 D KeyguardUpdateMonitor: received broadcast android.intent.action.BATTERY_CHANGED
+09-07 17:40:12.491 18056 18056 I NotifierManager: onNotify: miui.maml.NotifierManager$BroadcastNotifier@e84786b
+09-07 17:40:12.540  1089  1314 I netd    : tetherGetStats() <2.69ms>
+09-07 17:40:12.560  1089  1314 I netd    : tetherGetStats() <2.11ms>
+09-07 17:40:12.707 17235  6900 W BatteryHistoryLoadMgr: get firstHistoryInfo time: 1083763372
+09-07 17:40:12.707 17235  6900 D BatteryHistoryLoadMgr: getHistoryInfo end
+09-07 17:40:12.707 17235  6900 I BatteryInfoReceiver: update charge detail 195
+09-07 17:40:12.710 17235  6900 I PowerUtils: Device name:lavender
+09-07 17:40:12.714 17235  6900 W PowerUtils: should not use this capacity value 4000
+09-07 17:40:12.716 17235  6900 I PowerUtils: Device name:lavender
+09-07 17:40:12.716 17235  6900 W PowerUtils: should not use this capacity value 4000
+09-07 17:40:12.718 17235  6900 I PowerUtils: Device name:lavender
+09-07 17:40:12.718 17235  6900 W PowerUtils: should not use this capacity value 4000
+09-07 17:40:12.720 17235  6900 I PowerUtils: Device name:lavender
+09-07 17:40:12.720 17235  6900 W PowerUtils: should not use this capacity value 4000
+09-07 17:40:12.722 17235  6900 I BatteryChargeTimeHelper: Mixed(default) charge time 0.23 1h20m18s102ms
+09-07 17:40:13.936  7231  7231 I subsystem_ramdump: Usage:./system/bin/subsystem_ramdump [arg1] [arg2] [arg3]
+09-07 17:40:13.936  7231  7231 I subsystem_ramdump: [arg1]: (1/2) Ramdump location: 1: eMMC: /data/vendor/ramdump or 2: SD card: /sdcard/ramdump
+09-07 17:40:13.936  7231  7231 I subsystem_ramdump: [arg2]: (1/0) 1: Enable RPM log / 0: Disable RPM log
+09-07 17:40:13.936  7231  7231 I subsystem_ramdump: [arg3]: (1/0) 1: Enable qdss ramdump / 0: Disable qdss ramdump
+09-07 17:40:13.936  7231  7231 I subsystem_ramdump:  Using default ramdump location 1: eMMC: /data/vendor/ramdump
+09-07 17:40:13.936  7231  7231 I subsystem_ramdump:  Using default 0: Disable RPM log
+09-07 17:40:13.936  7231  7231 I subsystem_ramdump:  Using default 0: Disable qdss ramdump
+09-07 17:40:13.937  7231  7231 E subsystem_ramdump: Unable to open /sys/module/subsystem_restart/parameters/enable_ramdumps
+09-07 17:40:13.919  7231  7231 W subsystem_ramdu: type=1400 audit(0.0:2540395): avc: denied { read } for name="enable_ramdumps" dev="sysfs" ino=25551 scontext=u:r:vendor_subsystem_ramdump:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+09-07 17:40:14.919  1089  1314 D OemNetd : setLimit: disable, rate=0
+09-07 17:40:15.598   587   587 I hwservicemanager: getTransport: Cannot find entry vendor.qti.hardware.servicetracker@1.0::IServicetracker/default in either framework or device manifest.
+09-07 17:40:15.621  1957  2099 I MiuiNetworkPolicy: updateUidState uid = 10020, uidState = 6
+09-07 17:40:15.624 24378 24441 I BtGatt.ScanManager: msg.what = 6
+09-07 17:40:16.477   587   587 I hwservicemanager: getTransport: Cannot find entry vendor.qti.hardware.servicetracker@1.0::IServicetracker/default in either framework or device manifest.
+09-07 17:40:16.480  1957  4067 D CompatibilityInfo: mCompatibilityFlags - 0
+09-07 17:40:16.480  1957  4067 D CompatibilityInfo: applicationDensity - 440
+09-07 17:40:16.480  1957  4067 D CompatibilityInfo: applicationScale - 1.0
+09-07 17:40:16.484   587   587 I hwservicemanager: getTransport: Cannot find entry vendor.qti.hardware.servicetracker@1.0::IServicetracker/default in either framework or device manifest.
+09-07 17:40:16.500   587   587 I chatty  : uid=1000(system) hwservicemanage identical 2 lines
+09-07 17:40:16.578   587   587 I hwservicemanager: getTransport: Cannot find entry vendor.qti.hardware.servicetracker@1.0::IServicetracker/default in either framework or device manifest.
+09-07 17:40:16.580  1957  3961 D CompatibilityInfo: mCompatibilityFlags - 0
+09-07 17:40:16.580  1957  3961 D CompatibilityInfo: applicationDensity - 440
+09-07 17:40:16.581  1957  3961 D CompatibilityInfo: applicationScale - 1.0
+09-07 17:40:16.583   587   587 I hwservicemanager: getTransport: Cannot find entry vendor.qti.hardware.servicetracker@1.0::IServicetracker/default in either framework or device manifest.
+09-07 17:40:16.592   587   587 I chatty  : uid=1000(system) hwservicemanage identical 2 lines
+09-07 17:40:16.646   587   587 I hwservicemanager: getTransport: Cannot find entry vendor.qti.hardware.servicetracker@1.0::IServicetracker/default in either framework or device manifest.
+09-07 17:40:16.649  1957  3332 D CompatibilityInfo: mCompatibilityFlags - 0
+09-07 17:40:16.649  1957  3332 D CompatibilityInfo: applicationDensity - 440
+09-07 17:40:16.649  1957  3332 D CompatibilityInfo: applicationScale - 1.0
+09-07 17:40:16.651   587   587 I hwservicemanager: getTransport: Cannot find entry vendor.qti.hardware.servicetracker@1.0::IServicetracker/default in either framework or device manifest.
+09-07 17:40:16.659   587   587 I chatty  : uid=1000(system) hwservicemanage identical 2 lines
+09-07 17:40:16.713   587   587 I hwservicemanager: getTransport: Cannot find entry vendor.qti.hardware.servicetracker@1.0::IServicetracker/default in either framework or device manifest.
+09-07 17:40:16.716  1957  3332 D CompatibilityInfo: mCompatibilityFlags - 0
+09-07 17:40:16.716  1957  3332 D CompatibilityInfo: applicationDensity - 440
+09-07 17:40:16.716  1957  3332 D CompatibilityInfo: applicationScale - 1.0
+09-07 17:40:16.719   587   587 I hwservicemanager: getTransport: Cannot find entry vendor.qti.hardware.servicetracker@1.0::IServicetracker/default in either framework or device manifest.
+09-07 17:40:16.725   587   587 I chatty  : uid=1000(system) hwservicemanage identical 1 line
+09-07 17:40:16.726   587   587 I hwservicemanager: getTransport: Cannot find entry vendor.qti.hardware.servicetracker@1.0::IServicetracker/default in either framework or device manifest.
+09-07 17:40:18.951  7234  7234 I subsystem_ramdump: Usage:./system/bin/subsystem_ramdump [arg1] [arg2] [arg3]
+09-07 17:40:18.951  7234  7234 I subsystem_ramdump: [arg1]: (1/2) Ramdump location: 1: eMMC: /data/vendor/ramdump or 2: SD card: /sdcard/ramdump
+09-07 17:40:18.951  7234  7234 I subsystem_ramdump: [arg2]: (1/0) 1: Enable RPM log / 0: Disable RPM log
+09-07 17:40:18.951  7234  7234 I subsystem_ramdump: [arg3]: (1/0) 1: Enable qdss ramdump / 0: Disable qdss ramdump
+09-07 17:40:18.951  7234  7234 I subsystem_ramdump:  Using default ramdump location 1: eMMC: /data/vendor/ramdump
+09-07 17:40:18.951  7234  7234 I subsystem_ramdump:  Using default 0: Disable RPM log
+09-07 17:40:18.951  7234  7234 I subsystem_ramdump:  Using default 0: Disable qdss ramdump
+09-07 17:40:18.939  7234  7234 W subsystem_ramdu: type=1400 audit(0.0:2540396): avc: denied { read } for name="enable_ramdumps" dev="sysfs" ino=25551 scontext=u:r:vendor_subsystem_ramdump:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+09-07 17:40:18.952  7234  7234 E subsystem_ramdump: Unable to open /sys/module/subsystem_restart/parameters/enable_ramdumps
+09-07 17:40:19.931  1089  1314 D OemNetd : setLimit: enable, rate=0
+09-07 17:40:23.961  7235  7235 I subsystem_ramdump: Usage:./system/bin/subsystem_ramdump [arg1] [arg2] [arg3]
+09-07 17:40:23.961  7235  7235 I subsystem_ramdump: [arg1]: (1/2) Ramdump location: 1: eMMC: /data/vendor/ramdump or 2: SD card: /sdcard/ramdump
+09-07 17:40:23.961  7235  7235 I subsystem_ramdump: [arg2]: (1/0) 1: Enable RPM log / 0: Disable RPM log
+09-07 17:40:23.961  7235  7235 I subsystem_ramdump: [arg3]: (1/0) 1: Enable qdss ramdump / 0: Disable qdss ramdump
+09-07 17:40:23.961  7235  7235 I subsystem_ramdump:  Using default ramdump location 1: eMMC: /data/vendor/ramdump
+09-07 17:40:23.961  7235  7235 I subsystem_ramdump:  Using default 0: Disable RPM log
+09-07 17:40:23.961  7235  7235 I subsystem_ramdump:  Using default 0: Disable qdss ramdump
+09-07 17:40:23.949  7235  7235 W subsystem_ramdu: type=1400 audit(0.0:2540397): avc: denied { read } for name="enable_ramdumps" dev="sysfs" ino=25551 scontext=u:r:vendor_subsystem_ramdump:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+09-07 17:40:23.962  7235  7235 E subsystem_ramdump: Unable to open /sys/module/subsystem_restart/parameters/enable_ramdumps
+09-07 17:40:24.993   587   587 I hwservicemanager: getTransport: Cannot find entry vendor.qti.hardware.servicetracker@1.0::IServicetracker/default in either framework or device manifest.
+09-07 17:40:25.011  1957  3332 D CompatibilityInfo: mCompatibilityFlags - 0
+09-07 17:40:25.011  1957  3332 D CompatibilityInfo: applicationDensity - 440
+09-07 17:40:25.011  1957  3332 D CompatibilityInfo: applicationScale - 1.0
+09-07 17:40:25.015   587   587 I hwservicemanager: getTransport: Cannot find entry vendor.qti.hardware.servicetracker@1.0::IServicetracker/default in either framework or device manifest.
+09-07 17:40:25.024  1957  2099 I MiuiNetworkPolicy: updateUidState uid = 10147, uidState = 5
+09-07 17:40:25.029   587   587 I hwservicemanager: getTransport: Cannot find entry vendor.qti.hardware.servicetracker@1.0::IServicetracker/default in either framework or device manifest.
+09-07 17:40:25.038   587   587 I hwservicemanager: getTransport: Cannot find entry vendor.qti.hardware.servicetracker@1.0::IServicetracker/default in either framework or device manifest.
+09-07 17:40:25.047  1957  2099 I MiuiNetworkPolicy: updateUidState uid = 10147, uidState = 7
+09-07 17:40:25.636  1957  1971 D NetworkManagement: wlan0 <====> 1
+09-07 17:40:25.637  1957  1971 I MiuiNetworkPolicy: label wlan0, uid -1, active false, tsNanos 1314102052225117
+09-07 17:40:25.638  1089  1314 D OemNetd : setLimit: disable, rate=0
+09-07 17:40:26.562 17235 17235 I BatteryInfoReceiver: ACTION_BATTERY_CHANGED
+09-07 17:40:26.566 18056 18056 D KeyguardUpdateMonitor: received broadcast android.intent.action.BATTERY_CHANGED
+09-07 17:40:26.570 18056 18056 I NotifierManager: onNotify: miui.maml.NotifierManager$BroadcastNotifier@e84786b
+09-07 17:40:26.570  4773  4841 D PowerCheckerService: onBatteryChanged, mBatteryLevel = 77, status = 2, level = 77, plug = 2, scale = 100
+09-07 17:40:28.980  7238  7238 I subsystem_ramdump: Usage:./system/bin/subsystem_ramdump [arg1] [arg2] [arg3]
+09-07 17:40:28.981  7238  7238 I subsystem_ramdump: [arg1]: (1/2) Ramdump location: 1: eMMC: /data/vendor/ramdump or 2: SD card: /sdcard/ramdump
+09-07 17:40:28.981  7238  7238 I subsystem_ramdump: [arg2]: (1/0) 1: Enable RPM log / 0: Disable RPM log
+09-07 17:40:28.981  7238  7238 I subsystem_ramdump: [arg3]: (1/0) 1: Enable qdss ramdump / 0: Disable qdss ramdump
+09-07 17:40:28.981  7238  7238 I subsystem_ramdump:  Using default ramdump location 1: eMMC: /data/vendor/ramdump
+09-07 17:40:28.981  7238  7238 I subsystem_ramdump:  Using default 0: Disable RPM log
+09-07 17:40:28.969  7238  7238 W subsystem_ramdu: type=1400 audit(0.0:2540398): avc: denied { read } for name="enable_ramdumps" dev="sysfs" ino=25551 scontext=u:r:vendor_subsystem_ramdump:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+09-07 17:40:28.981  7238  7238 I subsystem_ramdump:  Using default 0: Disable qdss ramdump
+09-07 17:40:28.981  7238  7238 E subsystem_ramdump: Unable to open /sys/module/subsystem_restart/parameters/enable_ramdumps
+09-07 17:40:33.965 29976 23831 E memtrack: Couldn't load memtrack module
+09-07 17:40:33.966 29976 23831 W android.os.Debug: failed to get memory consumption info: -1
+09-07 17:40:33.972  7239  7239 I subsystem_ramdump: Usage:./system/bin/subsystem_ramdump [arg1] [arg2] [arg3]
+09-07 17:40:33.972  7239  7239 I subsystem_ramdump: [arg1]: (1/2) Ramdump location: 1: eMMC: /data/vendor/ramdump or 2: SD card: /sdcard/ramdump
+09-07 17:40:33.972  7239  7239 I subsystem_ramdump: [arg2]: (1/0) 1: Enable RPM log / 0: Disable RPM log
+09-07 17:40:33.973  7239  7239 I subsystem_ramdump: [arg3]: (1/0) 1: Enable qdss ramdump / 0: Disable qdss ramdump
+09-07 17:40:33.973  7239  7239 I subsystem_ramdump:  Using default ramdump location 1: eMMC: /data/vendor/ramdump
+09-07 17:40:33.973  7239  7239 I subsystem_ramdump:  Using default 0: Disable RPM log
+09-07 17:40:33.973  7239  7239 I subsystem_ramdump:  Using default 0: Disable qdss ramdump
+09-07 17:40:33.959  7239  7239 W subsystem_ramdu: type=1400 audit(0.0:2540399): avc: denied { read } for name="enable_ramdumps" dev="sysfs" ino=25551 scontext=u:r:vendor_subsystem_ramdump:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+09-07 17:40:33.973  7239  7239 E subsystem_ramdump: Unable to open /sys/module/subsystem_restart/parameters/enable_ramdumps
+09-07 17:40:39.002  7241  7241 I subsystem_ramdump: Usage:./system/bin/subsystem_ramdump [arg1] [arg2] [arg3]
+09-07 17:40:39.002  7241  7241 I subsystem_ramdump: [arg1]: (1/2) Ramdump location: 1: eMMC: /data/vendor/ramdump or 2: SD card: /sdcard/ramdump
+09-07 17:40:39.002  7241  7241 I subsystem_ramdump: [arg2]: (1/0) 1: Enable RPM log / 0: Disable RPM log
+09-07 17:40:39.002  7241  7241 I subsystem_ramdump: [arg3]: (1/0) 1: Enable qdss ramdump / 0: Disable qdss ramdump
+09-07 17:40:39.002  7241  7241 I subsystem_ramdump:  Using default ramdump location 1: eMMC: /data/vendor/ramdump
+09-07 17:40:39.002  7241  7241 I subsystem_ramdump:  Using default 0: Disable RPM log
+09-07 17:40:39.002  7241  7241 I subsystem_ramdump:  Using default 0: Disable qdss ramdump
+09-07 17:40:39.002  7241  7241 E subsystem_ramdump: Unable to open /sys/module/subsystem_restart/parameters/enable_ramdumps
+09-07 17:40:38.989  7241  7241 W subsystem_ramdu: type=1400 audit(0.0:2540400): avc: denied { read } for name="enable_ramdumps" dev="sysfs" ino=25551 scontext=u:r:vendor_subsystem_ramdump:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+09-07 17:40:44.009  7242  7242 W subsystem_ramdu: type=1400 audit(0.0:2540401): avc: denied { read } for name="enable_ramdumps" dev="sysfs" ino=25551 scontext=u:r:vendor_subsystem_ramdump:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+09-07 17:40:44.018  7242  7242 I subsystem_ramdump: Usage:./system/bin/subsystem_ramdump [arg1] [arg2] [arg3]
+09-07 17:40:44.019  7242  7242 I subsystem_ramdump: [arg1]: (1/2) Ramdump location: 1: eMMC: /data/vendor/ramdump or 2: SD card: /sdcard/ramdump
+09-07 17:40:44.019  7242  7242 I subsystem_ramdump: [arg2]: (1/0) 1: Enable RPM log / 0: Disable RPM log
+09-07 17:40:44.019  7242  7242 I subsystem_ramdump: [arg3]: (1/0) 1: Enable qdss ramdump / 0: Disable qdss ramdump
+09-07 17:40:44.019  7242  7242 I subsystem_ramdump:  Using default ramdump location 1: eMMC: /data/vendor/ramdump
+09-07 17:40:44.019  7242  7242 I subsystem_ramdump:  Using default 0: Disable RPM log
+09-07 17:40:44.019  7242  7242 I subsystem_ramdump:  Using default 0: Disable qdss ramdump
+09-07 17:40:44.019  7242  7242 E subsystem_ramdump: Unable to open /sys/module/subsystem_restart/parameters/enable_ramdumps
+09-07 17:40:47.889  6855  6944 D MI_STAT_UploaderEngine:  postToServer can not upload data because of configuration!
+09-07 17:40:49.038  7244  7244 I subsystem_ramdump: Usage:./system/bin/subsystem_ramdump [arg1] [arg2] [arg3]
+09-07 17:40:49.038  7244  7244 I subsystem_ramdump: [arg1]: (1/2) Ramdump location: 1: eMMC: /data/vendor/ramdump or 2: SD card: /sdcard/ramdump
+09-07 17:40:49.038  7244  7244 I subsystem_ramdump: [arg2]: (1/0) 1: Enable RPM log / 0: Disable RPM log
+09-07 17:40:49.038  7244  7244 I subsystem_ramdump: [arg3]: (1/0) 1: Enable qdss ramdump / 0: Disable qdss ramdump
+09-07 17:40:49.038  7244  7244 I subsystem_ramdump:  Using default ramdump location 1: eMMC: /data/vendor/ramdump
+09-07 17:40:49.038  7244  7244 I subsystem_ramdump:  Using default 0: Disable RPM log
+09-07 17:40:49.038  7244  7244 I subsystem_ramdump:  Using default 0: Disable qdss ramdump
+09-07 17:40:49.029  7244  7244 W subsystem_ramdu: type=1400 audit(0.0:2540402): avc: denied { read } for name="enable_ramdumps" dev="sysfs" ino=25551 scontext=u:r:vendor_subsystem_ramdump:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+09-07 17:40:49.039  7244  7244 E subsystem_ramdump: Unable to open /sys/module/subsystem_restart/parameters/enable_ramdumps
+09-07 17:40:52.371  4224  4270 I Finsky  : [237125] lbf.run(3): Stats for Executor: BlockingExecutor lcr@5a65e6b[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 96]
+09-07 17:40:52.372  4224  4270 I Finsky  : [237125] lbf.run(3): Stats for Executor: LightweightExecutor lcr@a5cfdc8[Running, pool size = 4, active threads = 0, queued tasks = 0, completed tasks = 333]
+09-07 17:40:53.014  4224  4270 I Finsky  : [237125] lbf.run(3): Stats for Executor: bgExecutor lcr@f9b2e61[Running, pool size = 4, active threads = 0, queued tasks = 0, completed tasks = 1033]
+09-07 17:40:54.058  7245  7245 I subsystem_ramdump: Usage:./system/bin/subsystem_ramdump [arg1] [arg2] [arg3]
+09-07 17:40:54.058  7245  7245 I subsystem_ramdump: [arg1]: (1/2) Ramdump location: 1: eMMC: /data/vendor/ramdump or 2: SD card: /sdcard/ramdump
+09-07 17:40:54.058  7245  7245 I subsystem_ramdump: [arg2]: (1/0) 1: Enable RPM log / 0: Disable RPM log
+09-07 17:40:54.058  7245  7245 I subsystem_ramdump: [arg3]: (1/0) 1: Enable qdss ramdump / 0: Disable qdss ramdump
+09-07 17:40:54.058  7245  7245 I subsystem_ramdump:  Using default ramdump location 1: eMMC: /data/vendor/ramdump
+09-07 17:40:54.058  7245  7245 I subsystem_ramdump:  Using default 0: Disable RPM log
+09-07 17:40:54.058  7245  7245 I subsystem_ramdump:  Using default 0: Disable qdss ramdump
+09-07 17:40:54.058  7245  7245 E subsystem_ramdump: Unable to open /sys/module/subsystem_restart/parameters/enable_ramdumps
+09-07 17:40:54.049  7245  7245 W subsystem_ramdu: type=1400 audit(0.0:2540403): avc: denied { read } for name="enable_ramdumps" dev="sysfs" ino=25551 scontext=u:r:vendor_subsystem_ramdump:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
