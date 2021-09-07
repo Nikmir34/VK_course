@@ -10,3 +10,5 @@ iOS Guidelines
 Android Guidelines
 
 iOS Release notes
+
+Сборка и запуск приложения на эмуляторе и реальном устройств, снятие логов с помощью ADB
