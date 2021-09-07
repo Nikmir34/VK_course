@@ -1,10 +1,12 @@
 # Mobile_Testing
 В разделе представлены. 
 
-Чек-листы особенностей мобильного тестирования
+Список особенностей мобильного тестирования
 
-Чек-листы iOS Guidelines
+Список общих проверок в мобильном тестировании
 
-Чек-листы Android Guidelines
+iOS Guidelines
 
-Чек-листы iOS Release notes
+Android Guidelines
+
+iOS Release notes
